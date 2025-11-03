@@ -14,7 +14,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* REMOVIDO overflow:hidden para não cortar o cinza */
 }
 
 .main-container {
