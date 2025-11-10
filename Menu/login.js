@@ -13,9 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Por favor, preencha todos os campos.");
             return;
         }
-
-        // Aqui você poderia validar o usuário e senha
-        // Por enquanto, só redireciona
         alert("Login aceito!");
         window.location.href = "agendar.html";
     });
