@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const inputs = document.querySelectorAll("input");
 
-        // Verificar campos vazios
         for (let input of inputs) {
             if (input.value.trim() === "") {
                 alert("Por favor, preencha todos os campos.");
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
-        // Verificar senhas
         const senha = inputs[4].value;
         const confirmarSenha = inputs[5].value;
 
@@ -24,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        // Tudo certo
         alert("Cadastro aceito!");
         window.location.href = "login.html";
     });
